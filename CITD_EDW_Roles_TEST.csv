@@ -1,0 +1,22 @@
+﻿
+created_on,name,is_default,is_current,is_inherited,assigned_to_users,granted_to_roles,granted_roles,owner,comment
+2022-01-27T13:46:07.709-05:00,ACCOUNTADMIN,N,Y,N,3,0,2,,Account administrator can manage all aspects of the account.
+2022-05-20T10:15:14.136-04:00,BITESTER,N,N,Y,8,1,0,SECURITYADMIN,
+2022-03-29T11:14:37.386-04:00,BIUSER,N,N,Y,8,1,1,SECURITYADMIN,
+2022-03-16T15:59:32.209-04:00,DATADIRECTOR,N,N,N,1,1,0,SECURITYADMIN,
+2022-03-07T11:25:52.818-05:00,DIDEVELOPER,N,N,Y,5,1,2,USERADMIN,
+2022-03-07T11:38:47.479-05:00,DITESTER,N,N,Y,5,1,0,SECURITYADMIN,
+2022-07-26T12:55:01.427-04:00,LOGUSER,N,N,N,3,0,0,SECURITYADMIN,
+2022-02-15T15:45:57.877-05:00,MASKING_ADMIN,N,N,Y,2,1,0,ACCOUNTADMIN,
+2023-05-30T15:10:56.035-04:00,MONITORING,N,N,Y,0,1,1,USERADMIN,Snowflake Repository Read Only
+2023-05-30T15:11:43.708-04:00,MONITORING_USER,N,N,Y,3,1,0,USERADMIN,Snowflake Repository Consumer
+2022-01-27T13:46:08.036-05:00,ORGADMIN,N,N,N,1,0,1,,Organization administrator can manage organizations and accounts in organizations
+2022-06-07T15:20:02.888-04:00,PRODADMINBI,N,N,Y,3,1,1,SECURITYADMIN,
+2022-05-31T10:01:09.872-04:00,PRODADMINDI,N,N,Y,4,1,1,USERADMIN,
+2022-06-07T15:24:42.386-04:00,PRODUSERBI,N,N,Y,8,1,0,SECURITYADMIN,
+2022-05-31T10:00:56.016-04:00,PRODUSERDI,N,N,Y,5,1,0,USERADMIN,
+2022-01-27T13:46:07.662-05:00,PUBLIC,N,N,Y,0,0,0,,Public role is automatically available to every user in the account.
+2022-01-27T13:46:07.733-05:00,SECURITYADMIN,N,N,Y,3,1,1,,Security administrator can manage security aspects of the account.
+2022-11-28T12:38:00.633-05:00,SNDBX_USER,N,N,Y,3,1,0,ACCOUNTADMIN,
+2022-01-27T13:46:07.752-05:00,SYSADMIN,Y,N,Y,4,1,6,,System administrator can create and manage databases and warehouses.
+2022-01-27T13:46:07.773-05:00,USERADMIN,N,N,Y,3,1,0,,User administrator can create and manage users and roles
